@@ -34,6 +34,13 @@ public static String OK = "OK";
 public static String JOBP = "JOBP";
 public static String QUIT = "QUIT";
 
+//Server variables
+public static String[] arrMsg;
+public static String[] server;
+
+public Socket socket;
+public static InputStreamReader inputStream;
+public static DataOutputStream outputStream;
 }
 
 public static void main(String[] args) {
