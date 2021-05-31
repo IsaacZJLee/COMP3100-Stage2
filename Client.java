@@ -46,3 +46,12 @@ public static DataOutputStream outputStream;
 public static void main(String[] args) {
     
 }
+
+public static void send(String msg) {
+
+}
+
+public static String[] read(){
+
+}
+
