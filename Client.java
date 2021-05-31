@@ -12,14 +12,22 @@ public static int serverPort = 50000;
 //Assigning username
 public static String userName = "user.name";
 
-//Start initialisation with HELO
+//Start initialisation with HELO to the server
 public static String HELO = "HELO";
 
 //Authentication username on the system
-public static String AUTHusername = "AUTH" + " " + System.getProperty(userName);
+public static String AUTH = "AUTH ";
+public static String username = System.getProperty(userName);
+public static String AU = AUTH + username;
 
 //The Client is ready to read
 public static String REDY = "REDY";
+
+//Get
+public static String GET = "GET";
+
+//Capable
+public 
 
 //Job Submission information
 public static String JOBN = "JOBN";
@@ -51,7 +59,11 @@ public static void send(String msg) {
 
 }
 
-public static String[] read(){
+public static String[] read() {
 
 }
 
+//New algorithm
+public static void  lowCost() {
+
+}
