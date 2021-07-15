@@ -1,7 +1,7 @@
 # COMP3100Stage2
 Student Number: 45526249
 Name: Isaac Zhuan Jian Lee
-GitHub username: IsaacZJMQ
+GitHub username: IsaacZJLee
 
 Procedures to execute the test program:
 # To grant permission for the test_results file
